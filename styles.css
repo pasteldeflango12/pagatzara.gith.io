@@ -1,0 +1,84 @@
+/* Define a fonte padrão para a página */
+body {
+    font-family: 'Playpen Sans', sans-serif;
+    color: #333; /* Texto principal */
+    background-color: #f4f4f4; /* Cor de fundo leve */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #20232a; /* Cor escura para cabeçalhos */
+    color: #61dafb; /* Cor clara para o texto */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos principais da página de pagamento */
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagamento {
+    background-color: #ffffff; /* Cor de fundo branca para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h2 {
+    color: #20232a; /* Cor escura para subtítulos */
+    margin-top: 0;
+}
+
+/* Estilo dos campos de formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    background-color: #61dafb; /* Cor de fundo do botão */
+    color: #ffffff; /* Texto do botão */
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4fa3d2; /* Cor mais escura ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #20232a; /* Cor escura para rodapé */
+    color: #ffffff; /* Texto branco para o rodapé */
+    padding: 10px;
+    text-align: center;
+}
